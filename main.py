@@ -6,7 +6,7 @@ Secondg = 0
 Secondc = 0
 Thirdg = 0
 Thirdc = 0
-def getGradePoint():
+def getGradePoint(self):
     return
 grade = float(0)
 def run():
@@ -63,7 +63,7 @@ def run():
     Thirdg = float(grade)
     print(f"Grade point for course 3 is:", Thirdg)
     getGradePoint()
-    
+
   def GPA() :
       FirstGrade()
       SecondGrade()
