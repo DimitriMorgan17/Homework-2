@@ -37,7 +37,7 @@ def run():
     Firstc = float(Firstc)
     getGradePoint(Firstg)
     Firstg = float(grade)
-    print(f"Grade point for course 1 is: ", Firstg)
+    print(f"Grade point for course 1 is:", Firstg)
 
   def SecondGrade() :
     global Secondg
@@ -47,7 +47,7 @@ def run():
     Secondc = float(Secondc)
     getGradePoint(Secondg)
     Secondg = float(grade)
-    print(f"Grade point for course 2 is: ", Secondg)
+    print(f"Grade point for course 2 is:", Secondg)
 
   def ThirdGrade() :
     global Thirdg
@@ -57,7 +57,7 @@ def run():
     Thirdc = float(Thirdc)
     getGradePoint(Thirdg)
     Thirdg = float(grade)
-    print(f"Grade point for course 3 is: ", Thirdg)
+    print(f"Grade point for course 3 is:", Thirdg)
 
   def GPA() :
       FirstGrade()
@@ -66,6 +66,6 @@ def run():
       global gpaFunc 
       gpaFunc = ((Firstg*Firstc) + (Secondg*Secondc) + (Thirdg*Thirdc)) / (Firstc + Secondc + Thirdc)
   GPA()
-  print(f"Your GPA is: ", gpaFunc)
+  print(f"Your GPA is:", gpaFunc)
 if __name__ == "__main__":
   run ()
