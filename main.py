@@ -9,7 +9,7 @@ Thirdc = 0
 
 grade = float(0)
 def run():
-  def getGrade(test):
+  def getGradePoint(test):
     global grade
     if test == "A":
       grade = 4.0
@@ -35,7 +35,7 @@ def run():
     Firstg = str(input("Enter your course 1 letter grade: "))
     Firstc = input("Enter your course 1 credit: ")
     Firstc = float(Firstc)
-    getGrade(Firstg)
+    getGradePoint(Firstg)
     Firstg = float(grade)
     print(f"Grade point for course 1 is: ", Firstg)
 
@@ -45,7 +45,7 @@ def run():
     Secondg = str(input("Enter your course 2 letter grade: "))
     Secondc = input("Enter your course 2 credit: ")
     Secondc = float(Secondc)
-    getGrade(Secondg)
+    getGradePoint(Secondg)
     Secondg = float(grade)
     print(f"Grade point for course 2 is: ", Secondg)
 
@@ -55,7 +55,7 @@ def run():
     Thirdg = str(input("Enter your course 3 letter grade: "))
     Thirdc = input("Enter your course 3 credit: ")
     Thirdc = float(Thirdc)
-    getGrade(Thirdg)
+    getGradePoint(Thirdg)
     Thirdg = float(grade)
     print(f"Grade point for course 3 is: ", Thirdg)
 
