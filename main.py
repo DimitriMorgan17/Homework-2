@@ -6,11 +6,11 @@ Secondg = 0
 Secondc = 0
 Thirdg = 0
 Thirdc = 0
-
+def getGradePoint():
+    return
 grade = float(0)
 def run():
-  def getGradePoint():
-    return
+  
   def getGrade(test):
     global grade
     if test == "A":
