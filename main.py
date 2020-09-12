@@ -40,6 +40,7 @@ def run():
     getGrade(Firstg)
     Firstg = float(grade)
     print(f"Grade point for course 1 is:", Firstg)
+    getGradePoint()
 
   def SecondGrade() :
     global Secondg
@@ -50,6 +51,7 @@ def run():
     getGrade(Secondg)
     Secondg = float(grade)
     print(f"Grade point for course 2 is:", Secondg)
+    getGradePoint()
 
   def ThirdGrade() :
     global Thirdg
@@ -60,7 +62,8 @@ def run():
     getGrade(Thirdg)
     Thirdg = float(grade)
     print(f"Grade point for course 3 is:", Thirdg)
-
+    getGradePoint()
+    
   def GPA() :
       FirstGrade()
       SecondGrade()
